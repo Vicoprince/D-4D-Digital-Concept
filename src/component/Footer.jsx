@@ -42,31 +42,31 @@ const Footer = () => {
               <div class="info_contact">
                 <h4>Address</h4>
                 <div class="contact_link_box">
-                  <a href="">
+                  <a href="#">
                     <i class="fa fa-map-marker" aria-hidden="true"></i>
                     <span>Location</span>
                   </a>
-                  <a href="">
+                  <a href="#">
                     <i class="fa fa-phone" aria-hidden="true"></i>
                     <span>Call +(234) 913 222 2267, +(234) 913 444 4463</span>
                   </a>
-                  <a href="">
+                  <a href="#">
                     <i class="fa fa-envelope" aria-hidden="true"></i>
                     <span>gn4ddigitalconceptsenterprises@gmail.com</span>
                   </a>
                 </div>
               </div>
               <div class="info_social">
-                <a href="">
+                <a href="#">
                   <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
-                <a href="">
+                <a href="#">
                   <i class="fa fa-twitter" aria-hidden="true"></i>
                 </a>
-                <a href="">
+                <a href="#">
                   <i class="fa fa-linkedin" aria-hidden="true"></i>
                 </a>
-                <a href="">
+                <a href="#">
                   <i class="fa fa-instagram" aria-hidden="true"></i>
                 </a>
               </div>
