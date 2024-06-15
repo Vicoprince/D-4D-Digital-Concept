@@ -4,10 +4,6 @@ import "../css/style.scss";
 import "../css/responsive.css";
 
 const Navbar = () => {
-  const handleNavigation = (path) => {
-    window.location.href = path;
-  };
-  
   return (
     <>
       <div class="hero_bg_box">
@@ -43,7 +39,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/about" onClick={(e) => { e.preventDefault(); handleNavigation('/about'); }}>
+                  <a class="nav-link" href="/about">
                     Who We Are
                   </a>
                 </li>
