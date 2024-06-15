@@ -2,6 +2,7 @@ import React from 'react';
 import "../css/style.css";
 import "../css/style.scss";
 import "../css/responsive.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -39,9 +40,9 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/about">
+                  <Link class="nav-link" to="/about">
                     Who We Are
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/our-services">
