@@ -45,19 +45,19 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link class="nav-link" to="/our-services">
+                  <a class="nav-link" href="/our-services">
                     What We Do
-                  </Link>
+                  </a>
                 </li>
                 <li class="nav-item">
-                  <Link class="nav-link" to="/why-us">
+                  <a class="nav-link" href="/why-us">
                     Why Us
-                  </Link>
+                  </a>
                 </li>
                 <li class="nav-item">
-                  <Link class="nav-link" to="/contact-us">
+                  <a class="nav-link" href="/contact-us">
                     Contact
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
