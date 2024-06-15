@@ -13,7 +13,7 @@ function App() {
       {/* <ToastContainer></ToastContainer> */}
       <Router>
         <Routes>
-          <Route path="/" exact element={<Home />}></Route>
+          <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/our-services" element={<Services />}></Route>
           <Route path="/why-us" element={<WhyUs />}></Route>
