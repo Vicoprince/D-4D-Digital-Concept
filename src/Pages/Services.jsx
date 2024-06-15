@@ -3,7 +3,7 @@ import "../css/style.css";
 import "../css/style.scss";
 import "../css/responsive.css";
 import Footer from "../component/Footer";
-import { Link } from "react-router-dom":
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
