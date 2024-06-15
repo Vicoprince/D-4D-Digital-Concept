@@ -2,9 +2,12 @@ import React from 'react';
 import "../css/style.css";
 import "../css/style.scss";
 import "../css/responsive.css";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const handleNavigation = (path) => {
+    window.location.href = path;
+  };
+  
   return (
     <>
       <div class="hero_bg_box">
@@ -40,9 +43,9 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li class="nav-item">
-                  <Link class="nav-link" to="/about">
+                  <a class="nav-link" href="/about" onClick={(e) => { e.preventDefault(); handleNavigation('/about'); }}>
                     Who We Are
-                  </Link>
+                  </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/our-services">
