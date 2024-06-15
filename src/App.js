@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './Home';
 import About from './Pages/About';
 import Services from './Pages/Services';
@@ -12,13 +12,13 @@ function App() {
     <div className="App">
       {/* <ToastContainer></ToastContainer> */}
       <Router>
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
+        <Switch>
+          <Route exact path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/our-services" element={<Services />}></Route>
           <Route path="/why-us" element={<WhyUs />}></Route>
           <Route path="/contact-us" element={<Contact />}></Route>
-        </Routes>
+        </Switch>
       </Router>
     </div>
   );
