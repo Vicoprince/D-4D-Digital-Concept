@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Aboutsection = () => {
   return (
@@ -39,9 +40,9 @@ const Aboutsection = () => {
                   facilitate an organic growth of other businesses throughout
                   their digital lifecycle.
                 </p>
-                <a className="btn-link" href="/about#read_about2">
+                <Link className="btn-link" to="/about#read_about2">
                   Read More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
