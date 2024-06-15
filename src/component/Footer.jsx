@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const [email, setEmail] = useState("");
@@ -84,19 +85,19 @@ const Footer = () => {
               <div class="info_link_box">
                 <h4>Links</h4>
                 <div class="info_links">
-                  <a href="/">Home</a>
-                  <a href="/about">
+                  <Link to="/">Home</Link>
+                  <Link to="/about">
                     Who We Are
-                  </a>
-                  <a href="/our-services">
+                  </Link>
+                  <Link to="/our-services">
                     What We Do
-                  </a>
-                  <a href="/why-us">
+                  </Link>
+                  <Link href="/why-us">
                     Why Us
-                  </a>
-                  <a href="/contact-us">
+                  </Link>
+                  <Link href="/contact-us">
                     Contact
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
