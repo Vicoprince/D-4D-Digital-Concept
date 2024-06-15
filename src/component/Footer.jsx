@@ -92,10 +92,10 @@ const Footer = () => {
                   <Link to="/our-services">
                     What We Do
                   </Link>
-                  <Link href="/why-us">
+                  <Link to="/why-us">
                     Why Us
                   </Link>
-                  <Link href="/contact-us">
+                  <Link to="/contact-us">
                     Contact
                   </Link>
                 </div>
