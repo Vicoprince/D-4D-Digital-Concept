@@ -35,7 +35,7 @@
     width: 100%;
   }
 
-  .why_section .box {
+  .why_section .why_container .box {
     margin-top: 45px;
     padding: 18px;
     display: flex;
