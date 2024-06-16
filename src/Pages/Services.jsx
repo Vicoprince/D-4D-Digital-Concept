@@ -3,6 +3,7 @@ import "../css/style.css";
 import "../css/style.scss";
 import "../css/responsive.css";
 import Footer from "../component/Footer";
+import { Nav } from "react-bootstrap";
 
 const Services = () => {
   return (
@@ -30,29 +31,29 @@ const Services = () => {
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav  ">
                   <li class="nav-item">
-                    <a class="nav-link" href="/">
-                      Home
-                    </a>
+                    <Nav.Link class="nav-link" href="/">
+                      HOME
+                    </Nav.Link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/about">
+                    <Nav.Link class="nav-link" href="/about">
                       Who We Are
-                    </a>
+                    </Nav.Link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/our-services">
+                    <Nav.Link class="nav-link" href="/our-services">
                       What We Do
-                    </a>
+                    </Nav.Link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/why-us">
+                    <Nav.Link class="nav-link" href="/why-us">
                       Why Us
-                    </a>
+                    </Nav.Link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/contact-us">
+                    <Nav.Link class="nav-link" href="/contact-us">
                       Contact
-                    </a>
+                    </Nav.Link>
                   </li>
                 </ul>
               </div>
@@ -1088,17 +1089,24 @@ const Services = () => {
                       the internet, enhancing usability and convenience.
                     </li>
                     <li>
-                      <b>
-                        Increased Efficiency: </b>Mobile apps can automate
-                        processes, streamline workflows, and provide
-                        self-service options, reducing the need for manual
-                        intervention and improving operational efficiency.
+                      <b>Increased Efficiency: </b>Mobile apps can automate
+                      processes, streamline workflows, and provide self-service
+                      options, reducing the need for manual intervention and
+                      improving operational efficiency.
                     </li>
                     <li>
-                      <b>Real-Time Communication: </b>Mobile apps enable real-time communication and interaction with users through features such as messaging, chatbots, and push notifications, allowing you to deliver timely updates and support.
+                      <b>Real-Time Communication: </b>Mobile apps enable
+                      real-time communication and interaction with users through
+                      features such as messaging, chatbots, and push
+                      notifications, allowing you to deliver timely updates and
+                      support.
                     </li>
                     <li>
-                      <b>Flexibility and Scalability: </b>Mobile apps can be easily updated and scaled to accommodate changes in your business needs, technology advancements, and user feedback, ensuring that your app remains relevant and effective over time.
+                      <b>Flexibility and Scalability: </b>Mobile apps can be
+                      easily updated and scaled to accommodate changes in your
+                      business needs, technology advancements, and user
+                      feedback, ensuring that your app remains relevant and
+                      effective over time.
                     </li>
                   </ul>
                 </div>
@@ -1114,41 +1122,84 @@ const Services = () => {
                 <div class="detail-box">
                   <h3>Training and Support Services</h3>
                   <p>
-                    We Provides training programs and ongoing support to ensure that employees can effectively use and maximize the benefits of digital solutions.
+                    We Provides training programs and ongoing support to ensure
+                    that employees can effectively use and maximize the benefits
+                    of digital solutions.
                   </p>
                   <p>
-                    Engaging in training and support services can provide several benefits for your business:
+                    Engaging in training and support services can provide
+                    several benefits for your business:
                   </p>
                   <ul>
                     <li>
-                      <b>Employee Development: </b>Training services help develop the skills and knowledge of your employees, enabling them to perform their jobs more effectively, improve productivity, and contribute to the success of your business.
+                      <b>Employee Development: </b>Training services help
+                      develop the skills and knowledge of your employees,
+                      enabling them to perform their jobs more effectively,
+                      improve productivity, and contribute to the success of
+                      your business.
                     </li>
                     <li>
-                      <b>Improved Performance: </b>Well-trained employees are better equipped to meet job requirements, handle tasks efficiently, and deliver high-quality products and services, leading to improved overall performance and customer satisfaction.
+                      <b>Improved Performance: </b>Well-trained employees are
+                      better equipped to meet job requirements, handle tasks
+                      efficiently, and deliver high-quality products and
+                      services, leading to improved overall performance and
+                      customer satisfaction.
                     </li>
                     <li>
-                      <b>Enhanced Employee Satisfaction: </b>Offering training and development opportunities demonstrates your commitment to investing in your employees' growth and success, leading to higher job satisfaction, motivation, and retention rates.
+                      <b>Enhanced Employee Satisfaction: </b>Offering training
+                      and development opportunities demonstrates your commitment
+                      to investing in your employees' growth and success,
+                      leading to higher job satisfaction, motivation, and
+                      retention rates.
                     </li>
                     <li>
-                      <b>Reduced Turnover: </b>Providing training and support services can help reduce employee turnover by offering opportunities for career advancement, skill development, and job satisfaction, leading to greater employee loyalty and longevity within your organization.
+                      <b>Reduced Turnover: </b>Providing training and support
+                      services can help reduce employee turnover by offering
+                      opportunities for career advancement, skill development,
+                      and job satisfaction, leading to greater employee loyalty
+                      and longevity within your organization.
                     </li>
                     <li>
-                      <b>Adaptability to Change: </b>Training services help employees adapt to changes in technology, processes, or industry trends, ensuring that your business remains agile and competitive in a rapidly evolving marketplace.
+                      <b>Adaptability to Change: </b>Training services help
+                      employees adapt to changes in technology, processes, or
+                      industry trends, ensuring that your business remains agile
+                      and competitive in a rapidly evolving marketplace.
                     </li>
                     <li>
-                      <b>Consistency and Standardization: </b>Training ensures that employees receive consistent information and are aligned with company policies, procedures, and best practices, promoting a standardized approach to operations and customer service.
+                      <b>Consistency and Standardization: </b>Training ensures
+                      that employees receive consistent information and are
+                      aligned with company policies, procedures, and best
+                      practices, promoting a standardized approach to operations
+                      and customer service.
                     </li>
                     <li>
-                      <b>Compliance and Risk Management: </b>Training services ensure that employees are educated about regulatory requirements, safety protocols, and compliance standards relevant to their roles, reducing the risk of non-compliance, accidents, or legal issues.
+                      <b>Compliance and Risk Management: </b>Training services
+                      ensure that employees are educated about regulatory
+                      requirements, safety protocols, and compliance standards
+                      relevant to their roles, reducing the risk of
+                      non-compliance, accidents, or legal issues.
                     </li>
                     <li>
-                      <b>Customer Satisfaction: </b>Well-trained employees provide better service and support to customers, addressing their needs more effectively, resolving issues promptly, and building stronger relationships, ultimately leading to higher levels of customer satisfaction and loyalty.
+                      <b>Customer Satisfaction: </b>Well-trained employees
+                      provide better service and support to customers,
+                      addressing their needs more effectively, resolving issues
+                      promptly, and building stronger relationships, ultimately
+                      leading to higher levels of customer satisfaction and
+                      loyalty.
                     </li>
                     <li>
-                      <b>Innovation and Growth: </b>Training services can foster a culture of innovation and continuous improvement within your organization by encouraging employees to develop new skills, explore new ideas, and contribute to innovation initiatives, driving business growth and competitiveness.
+                      <b>Innovation and Growth: </b>Training services can foster
+                      a culture of innovation and continuous improvement within
+                      your organization by encouraging employees to develop new
+                      skills, explore new ideas, and contribute to innovation
+                      initiatives, driving business growth and competitiveness.
                     </li>
                     <li>
-                      <b>Brand Reputation: </b>Investing in training and support services demonstrates your commitment to delivering quality products and services, building trust and confidence among customers, partners, and stakeholders, and enhancing your brand reputation.
+                      <b>Brand Reputation: </b>Investing in training and support
+                      services demonstrates your commitment to delivering
+                      quality products and services, building trust and
+                      confidence among customers, partners, and stakeholders,
+                      and enhancing your brand reputation.
                     </li>
                   </ul>
                 </div>

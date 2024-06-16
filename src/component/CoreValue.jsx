@@ -1,4 +1,5 @@
 import React from 'react';
+import { Nav } from "react-bootstrap";
 
 const CoreValue = () => {
   return (
@@ -29,7 +30,7 @@ const CoreValue = () => {
                       pioneering new ideas, technologies, and approaches to
                       drive transformational change.
                     </p>
-                    <a href="/about">Read More</a>
+                    <Nav.Link href="/about">Read More</Nav.Link>
                   </div>
                 </div>
               </div>
@@ -45,7 +46,7 @@ const CoreValue = () => {
                       with clients, partners, and stakeholders to co-create
                       solutions and achieve shared success.
                     </p>
-                    <a href="/about">Read More</a>
+                    <Nav.Link href="/about">Read More</Nav.Link>
                   </div>
                 </div>
               </div>
@@ -61,13 +62,15 @@ const CoreValue = () => {
                       transparency, and accountability in all our interactions
                       and business practices.
                     </p>
-                    <a href="/about">Read More</a>
+                    <Nav.Link href="/about">Read More</Nav.Link>
                   </div>
                 </div>
               </div>
             </div>
             <div class="btn-box">
-              <a href="/about">View All</a>
+              <Nav.Link href="/about">
+                View All
+              </Nav.Link>
             </div>
           </div>
         </div>

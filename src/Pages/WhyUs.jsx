@@ -4,6 +4,7 @@ import "../css/style.scss";
 import "../css/responsive.css";
 import Footer from "../component/Footer";
 import WhySection from "../component/WhySection";
+import { Nav } from "react-bootstrap";
 
 const WhyUs = () => {
   return (
@@ -31,29 +32,29 @@ const WhyUs = () => {
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav  ">
                   <li class="nav-item">
-                    <a class="nav-link" href="/">
-                      Home
-                    </a>
+                    <Nav.Link class="nav-link" href="/">
+                      HOME
+                    </Nav.Link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/about">
+                    <Nav.Link class="nav-link" href="/about">
                       Who We Are
-                    </a>
+                    </Nav.Link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/our-services">
+                    <Nav.Link class="nav-link" href="/our-services">
                       What We Do
-                    </a>
+                    </Nav.Link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/why-us">
+                    <Nav.Link class="nav-link" href="/why-us">
                       Why Us
-                    </a>
+                    </Nav.Link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/contact-us">
+                    <Nav.Link class="nav-link" href="/contact-us">
                       Contact
-                    </a>
+                    </Nav.Link>
                   </li>
                 </ul>
               </div>

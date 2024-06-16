@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { Nav } from "react-bootstrap";
 
 const Footer = () => {
   const [email, setEmail] = useState("");
@@ -42,33 +43,33 @@ const Footer = () => {
               <div class="info_contact">
                 <h4>Address</h4>
                 <div class="contact_link_box">
-                  <a href="#">
+                  <Nav.Link href="#">
                     <i class="fa fa-map-marker" aria-hidden="true"></i>
                     <span>Location</span>
-                  </a>
-                  <a href="#">
+                  </Nav.Link>
+                  <Nav.Link href="#">
                     <i class="fa fa-phone" aria-hidden="true"></i>
                     <span>Call +(234) 913 222 2267, +(234) 913 444 4463</span>
-                  </a>
-                  <a href="#">
+                  </Nav.Link>
+                  <Nav.Link href="#">
                     <i class="fa fa-envelope" aria-hidden="true"></i>
                     <span>gn4ddigitalconceptsenterprises@gmail.com</span>
-                  </a>
+                  </Nav.Link>
                 </div>
               </div>
               <div class="info_social">
-                <a href="#">
+                <Nav.Link href="#">
                   <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-                <a href="#">
+                </Nav.Link>
+                <Nav.Link href="#">
                   <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-                <a href="#">
+                </Nav.Link>
+                <Nav.Link href="#">
                   <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-                <a href="#">
+                </Nav.Link>
+                <Nav.Link href="#">
                   <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
+                </Nav.Link>
               </div>
             </div>
             <div class="col-md-6 col-lg-3 info_col">
@@ -84,19 +85,21 @@ const Footer = () => {
               <div class="info_link_box">
                 <h4>Links</h4>
                 <div class="info_links">
-                  <a href="/">Home</a>
-                  <a href="/about">
+                  <Nav.Link href="/">
+                    Home
+                  </Nav.Link>
+                  <Nav.Link href="/about">
                     Who We Are
-                  </a>
-                  <a href="/our-services">
+                  </Nav.Link>
+                  <Nav.Link href="/our-services">
                     What We Do
-                  </a>
-                  <a href="/why-us">
+                  </Nav.Link>
+                  <Nav.Link href="/why-us">
                     Why Us
-                  </a>
-                  <a href="/contact-us">
+                  </Nav.Link>
+                  <Nav.Link href="/contact-us">
                     Contact
-                  </a>
+                  </Nav.Link>
                 </div>
               </div>
             </div>

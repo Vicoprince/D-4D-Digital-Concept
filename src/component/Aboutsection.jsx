@@ -1,4 +1,5 @@
 import React from "react";
+import { Nav } from "react-bootstrap";
 
 const Aboutsection = () => {
   return (
@@ -39,9 +40,9 @@ const Aboutsection = () => {
                   facilitate an organic growth of other businesses throughout
                   their digital lifecycle.
                 </p>
-                <a className="btn-link" href="/about#read_about2">
+                <Nav.Link className="btn-link" href="/about#read_about2">
                   Read More
-                </a>
+                </Nav.Link>
               </div>
             </div>
           </div>

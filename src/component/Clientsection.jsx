@@ -1,9 +1,6 @@
 import React from 'react';
 
 const Clientsection = () => {
-
-
-
   return (
     <>
       <section class="client_section layout_padding">
