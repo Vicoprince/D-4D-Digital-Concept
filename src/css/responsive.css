@@ -30,19 +30,10 @@
     margin: 5px 0;
   }
 
-
-}
-
-@media (max-width: 770px) {
-  .slider_section .detail-box {
-      color: #7F7545;
-      margin-top: 85px;
-  }
-
   .why_section .why_container {
     display: block;
     width: 100%;
-}
+  }
 
   .why_section .box {
     margin-top: 45px;
@@ -52,7 +43,16 @@
     align-items: center;
     text-align: center;
     width: 100%;
+  }
+
+
 }
+
+@media (max-width: 770px) {
+  .slider_section .detail-box {
+      color: #7F7545;
+      margin-top: 85px;
+  }
 
   
 }

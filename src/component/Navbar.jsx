@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
 import "../css/style.css";
 import "../css/style.scss";
 import "../css/responsive.css";
@@ -8,21 +7,21 @@ import { Nav } from "react-bootstrap";
 const Navbar = () => {
   return (
     <>
-      <div className="hero_bg_box">
-        <div className="bg_img_box">
+      <div class="hero_bg_box">
+        <div class="bg_img_box">
           <img src="./images/bg2.png" alt="background hero" />
         </div>
       </div>
 
-      <header className="header_section">
-        <div className="container-fluid">
-          <nav className="navbar navbar-expand-lg custom_nav-container">
-            <Link className="navbar-brand" to="/">
+      <header class="header_section">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <a class="navbar-brand" href="/">
               <span>D & 4D Digital Concept</span>
-            </Link>
+            </a>
 
             <button
-              className="navbar-toggler"
+              class="navbar-toggler"
               type="button"
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
@@ -30,38 +29,28 @@ const Navbar = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className=""> </span>
+              <span class=""> </span>
             </button>
 
-            <div
-              className="collapse navbar-collapse"
-              id="navbarSupportedContent"
-            >
-              <ul className="navbar-nav">
-                <li className="nav-item">
-                  <Nav.Link as={Link} to="/" className="nav-link">
-                    HOME
-                  </Nav.Link>
+            {/* <Nav>
+              <Nav.Link href="/">HOME</Nav.Link>
+            </Nav> */}
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav  ">
+                <li class="nav-item">
+                  <Nav.Link class="nav-link" href="/">HOME</Nav.Link>
                 </li>
-                <li className="nav-item">
-                  <Nav.Link as={Link} to="/about" className="nav-link">
-                    Who We Are
-                  </Nav.Link>
+                <li class="nav-item">
+                  <Nav.Link class="nav-link" href="/about">Who We Are</Nav.Link>
                 </li>
-                <li className="nav-item">
-                  <Nav.Link as={Link} to="/our-services" className="nav-link">
-                    What We Do
-                  </Nav.Link>
+                <li class="nav-item">
+                  <Nav.Link class="nav-link" href="/our-services">What We Do</Nav.Link>
                 </li>
-                <li className="nav-item">
-                  <Nav.Link as={Link} to="/why-us" className="nav-link">
-                    Why Us
-                  </Nav.Link>
+                <li class="nav-item">
+                  <Nav.Link class="nav-link" href="/why-us">Why Us</Nav.Link>
                 </li>
-                <li className="nav-item">
-                  <Nav.Link as={Link} to="/contact-us" className="nav-link">
-                    Contact
-                  </Nav.Link>
+                <li class="nav-item">
+                  <Nav.Link class="nav-link" href="/contact-us">Contact</Nav.Link>
                 </li>
               </ul>
             </div>
@@ -70,6 +59,6 @@ const Navbar = () => {
       </header>
     </>
   );
-};
+}
 
-export default Navbar;
+export default Navbar
