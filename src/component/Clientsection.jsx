@@ -1,4 +1,7 @@
 import React from 'react';
+import "../css/style.css";
+import "../css/style.scss";
+import "../css/responsive.css";
 
 const Clientsection = () => {
   return (
