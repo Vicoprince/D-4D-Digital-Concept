@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./css/style.css";
 import "./css/style.scss";
 import "./css/responsive.css";
@@ -35,9 +35,9 @@ const Home = () => {
                           business productivity and competitiveness.
                         </p>
                         <div class="btn-box">
-                          <a href="/about" class="btn1">
+                          <Link to="/about" class="btn1">
                             Read More
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -64,9 +64,9 @@ const Home = () => {
                           your digital journey.
                         </p>
                         <div class="btn-box">
-                          <a href="/about" class="btn1">
+                          <Link to="/about" class="btn1">
                             Read More
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -93,9 +93,9 @@ const Home = () => {
                           digital journeys.
                         </p>
                         <div class="btn-box">
-                          <a href="/about" class="btn1">
+                          <Link to="/about" class="btn1">
                             Read More
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
